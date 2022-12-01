@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Best Online Food Delivery Service in India | MyOnlineMeal.com</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo1.jpg" alt="MyOnlineMeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Products</a></li>
+            
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h1 class="h-primary">  wellcome to Bashir Marrar & sons online grocerry store</h1>
+        <p> We will give you the best home Services on your Order  <br> let's order something</p>
+        <button class="btn" onclick=verify()>Order Now</button>
+    </section>
+
+    <section id="services-container">
+        <h1 class="h-primary center">Our Products</h1>
+        <div id="services">
+            <div class="box">
+                <img src="img/hair.jpg" alt="">
+                <h2 class="h-secondary center">Hair and face Product</h2>
+               
+            </div>
+            <div class="box">
+                <img src="img/all2.jpg" alt="">
+                <h2 class="h-secondary center">Detergents Products</h2>
+              
+            </div>
+            <div class="box">
+                <img src="img/dall.JPG" alt="">
+                <h2 class="h-secondary center">pulses or Lenticeles</h2>
+            </div>
+            <div class="box">
+                <img src="grocery.jpg" alt="">
+                <h2 class="h-secondary center">All other things</h2>
+            </div>
+            
+        </div>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form onsubmit="sendEmail(); reset(); return false; ">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email"required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number: </label>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter your phone"required>
+                </div>
+                <div class="form-group">
+                    <label for="name">Adress: </label>
+                    <input type="text" name="Adress" id="Adress" placeholder="Enter your Adress"required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Grocery List: </label>
+                    <textarea name="list" id="list" cols="30" rows="5"required></textarea>
+                </div> 
+                <br>
+                 <div>   <Button id="cont">Send Now</Button></div>
+<br>
+                <input type="reset">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="center">
+            Copyright &copy; www.myOnlineMeal.com. All rights reserved!
+        </div>
+    </footer>
+    </section>
+    <script src="java.js"></script>
+</body>
+</html>
